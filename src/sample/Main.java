@@ -35,25 +35,25 @@ public class Main extends Application {
         inputInstructions.getChildren().add(inputInstructionText);
 
         //HBox for ICRatio input
-        HBox ICRatioPane = new HBox();
+        HBox ICRatioBox = new HBox();
         Label ICRatioText = new Label("Insulin Carb Ratio: ");
         TextField ICRatioTextField = new TextField();
-        ICRatioPane.getChildren().add(ICRatioText);
-        ICRatioPane.getChildren().add(ICRatioTextField);
+        ICRatioBox.getChildren().add(ICRatioText);
+        ICRatioBox.getChildren().add(ICRatioTextField);
 
         //Hbox for correctionFactor input
-        HBox correctionFactorPane = new HBox();
+        HBox correctionFactorBox = new HBox();
         Label correctionFactorText = new Label("Correction Factor: ");
         TextField correctionFactorTextField = new TextField();
-        correctionFactorPane.getChildren().add(correctionFactorText);
-        correctionFactorPane.getChildren().add(correctionFactorTextField);
+        correctionFactorBox.getChildren().add(correctionFactorText);
+        correctionFactorBox.getChildren().add(correctionFactorTextField);
 
         //HBox for targetBG input
-        HBox targetBGPane = new HBox();
+        HBox targetBGBox = new HBox();
         Label targetBGText = new Label("Target Blood Glucose: ");
         TextField targetBGTextField = new TextField();
-        targetBGPane.getChildren().add(targetBGText);
-        targetBGPane.getChildren().add(targetBGTextField);
+        targetBGBox.getChildren().add(targetBGText);
+        targetBGBox.getChildren().add(targetBGTextField);
 
         //save button that saves what is in TextFields to instance vars
         Button save = new Button("Save");
@@ -68,11 +68,11 @@ public class Main extends Application {
         });
 
         //adding HBoxes & Button to Vbox
-        sceneContents.getChildren().addAll(inputInstructions,ICRatioPane,correctionFactorPane,targetBGPane,save);
+        sceneContents.getChildren().addAll(inputInstructions,ICRatioBox,correctionFactorBox,targetBGBox,save);
         sceneContents.setMargin(inputInstructions, new Insets(10,10,10,10));
-        sceneContents.setMargin(ICRatioPane, new Insets(10,10,10,10));
-        sceneContents.setMargin(correctionFactorPane, new Insets(10,10,10,10));
-        sceneContents.setMargin(targetBGPane, new Insets(10,10,10,10));
+        sceneContents.setMargin(ICRatioBox, new Insets(10,10,10,10));
+        sceneContents.setMargin(correctionFactorBox, new Insets(10,10,10,10));
+        sceneContents.setMargin(targetBGBox, new Insets(10,10,10,10));
         sceneContents.setMargin(save, new Insets(10,10,10,10));
 
         //adding VBox to scene and showing scene
