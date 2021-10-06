@@ -2,6 +2,7 @@ package sample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -28,6 +29,7 @@ public class Main extends Application {
         //VBox that will hold all hboxes for each instance var
         VBox sceneContents = new VBox();
         sceneContents.setSpacing(5);
+        sceneContents.setAlignment(Pos.TOP_CENTER);
 
         //HBox that will display instructions at top of screen
         HBox inputInstructions = new HBox();
