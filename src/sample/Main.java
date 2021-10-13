@@ -26,7 +26,11 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Omnipod Dash");
 
+        //creating startup screen
         StartupScreen startup = new StartupScreen();
+
+        //creating bolus calculator
+        BolusCalc bolus = new BolusCalc(startup);
 
         //adding VBox to scene and showing scene
         primaryStage.setScene(new Scene(startup.getSceneContents(), 450, 550));

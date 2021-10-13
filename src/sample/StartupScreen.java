@@ -7,6 +7,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 public class StartupScreen{
 
@@ -14,8 +15,13 @@ public class StartupScreen{
     private int correctionFactor;
     private int targetBG;
     private VBox sceneContents;
+    private Stage primaryStage;
 
     public StartupScreen(){
+
+        ICRatio = 0;
+        correctionFactor = 0;
+        targetBG = 0;
 
         //VBox that will hold all hboxes for each instance var
         sceneContents = new VBox();
