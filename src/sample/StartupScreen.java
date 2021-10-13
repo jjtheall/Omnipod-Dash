@@ -64,6 +64,7 @@ public class StartupScreen{
             System.out.println("Insulin Carb Ratio: "+ICRatio);
             System.out.println("Correction Factor: "+correctionFactor);
             System.out.println("Target Blood Glucose: "+targetBG);
+
         });
 
         //adding HBoxes & Button to Vbox
