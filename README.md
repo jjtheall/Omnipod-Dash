@@ -2,7 +2,7 @@
 
 ## What is this project?
 
-This is a program that emulates the functionality of the Personal Diabetes Management system called the Omnipod Dash created by insulet. It (is a work in progress but eventually) will include a bolus calculator, a user programmable basal rate system, insulin delivery and blood glucose history, pod expiry, and other small features of the Dash.
+This is a program that emulates the functionality of the Personal Diabetes Management system called the Omnipod Dash created by Insulet. It (is a work in progress but eventually) will include a bolus calculator, a user programmable basal rate system, insulin delivery and blood glucose history, pod expiry, and other small features of the Dash.
 
 ## How to run this project?
 
