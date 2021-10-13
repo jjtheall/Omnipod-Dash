@@ -24,4 +24,4 @@ Main initializes one instance of each object and sets the primary stage to the S
   
 ## Credits
 
-</b>Jack Theall</b>: Programmed entire application and created all documentation
+**Jack Theall**: Programmed entire application and created all documentation
