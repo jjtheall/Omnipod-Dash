@@ -78,7 +78,7 @@ public class Main extends Application {
             int bgDiff = curBG - targetBG;
             //may have to update the way this is handled if bgDiff is pos or neg to implement reverse correction
             double bgInsulin = ((double)bgDiff)/ correctionFactor;
-            double totalInsulin = carbsInsulin + bgInsulin;
+            double totalInsulin = Math.round((carbsInsulin + bgInsulin)*100)/100.0;
 
             totalBolusText.setText("Total Bolus: " + totalInsulin + " U");
         });
