@@ -25,7 +25,7 @@ public class Main extends Application {
     //try making stage subclass that knows about each screen subclass
     public void start(Stage primaryStage) throws Exception{
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Omnipod Dash");
+        primaryStage.setTitle("What");
 
         StartupScene startup;
         BolusCalc bolus;
